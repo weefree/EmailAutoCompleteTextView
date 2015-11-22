@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/weefree/EmailAutoCompleteTextView'
     gitUrl = 'https://github.com/weefree/EmailAutoCompleteTextView.git'
 
-    libraryVersion = '0.1'
+    libraryVersion = '0.3'
 
     developerId = 'hothouse'
     developerName = 'hothouse'
@@ -49,5 +49,5 @@ dependencies {
 }
 
 
-//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+apply from: 'installv1.gradle'
+apply from: 'bintrayv1.gradle'

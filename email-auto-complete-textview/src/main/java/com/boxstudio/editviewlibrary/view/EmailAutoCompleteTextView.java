@@ -76,6 +76,7 @@ public class EmailAutoCompleteTextView extends AutoCompleteTextView {
                 String inputStrAfterAt = "";
                 String firstSuggestionString = mSuggestionArray[0].charAt(0)+"";
 
+                adapter.mList.clear();
                 if (inputStr.contains(firstSuggestionString)) {
                     int atIndex = inputStr.indexOf(firstSuggestionString);
                     if (atIndex != inputStr.lastIndexOf(firstSuggestionString)) {
@@ -85,9 +86,10 @@ public class EmailAutoCompleteTextView extends AutoCompleteTextView {
                     if (atIndex < (inputStr.length() - 1)) {
                         inputStrAfterAt = inputStr.substring(atIndex + 1, inputStr.length());
                     }
+                }else{
+                    return;
                 }
 
-                adapter.mList.clear();
                 if (inputStr.length() > 0) {
                     for (int i = 0; i < mSuggestionArray.length; ++i) {
                         if (mSuggestionArray[i].startsWith(firstSuggestionString+inputStrAfterAt)) {
