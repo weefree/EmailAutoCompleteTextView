@@ -1,1 +1,1 @@
-include ':demo', 'editviewlibrary'
+include ':demo', 'email-auto-complete-textview'
