@@ -1,6 +1,6 @@
 # EmailAutoCompleteTextView
 
-![](https://raw.githubusercontent.com/weefree/EmailAutoCompleteTextView/tree/master/demo/doc/demo.gif)
+![](https://raw.githubusercontent.com/weefree/EmailAutoCompleteTextView/master/demo/doc/demo.gif)
 
 ## Setup
 
@@ -16,7 +16,7 @@
     EmailAutoCompleteTextView emailAutoCompleteTextView = (EmailAutoCompleteTextView)findViewById(R.id.email_auto_complete_textview);
     emailAutoCompleteTextView.setmType(EmailAutoCompleteTextView.TypeInline);
     emailAutoCompleteTextView.setHintTextColor(Color.RED);
-    emailAutoCompleteTextView.setmSuggestionArray(new String[]{"@123.com", "@333.com", "@222.com", "@dff.com","@ddd.cd", "@aaa.com" });
+    emailAutoCompleteTextView.setmSuggestionArray(new String[]{"@163.com", "@gmail.com", "@qq.com", "@126.com","@ddd.cd", "@aaa.com" });
 
 
 ## Developed By

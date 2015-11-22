@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         final EmailAutoCompleteTextView emailAutoCompleteTextView = (EmailAutoCompleteTextView)findViewById(R.id.email_auto_complete_textview);
 //        emailAutoCompleteTextView.setmType(EmailAutoCompleteTextView.TypeInline);
 //        emailAutoCompleteTextView.setHintTextColor(Color.RED);
-//        emailAutoCompleteTextView.setmSuggestionArray(new String[]{"@123.com", "@333.com", "@222.com", "@dff.com","@ddd.cd", "@aaa.com" });
+//        emailAutoCompleteTextView.setmSuggestionArray(new String[]{"@163.com", "@gmail.com", "@qq.com", "@126.com","@ddd.cd", "@aaa.com" });
 
         CheckBox typeCheckBox = (CheckBox)findViewById(R.id.type_checkbox);
         typeCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
