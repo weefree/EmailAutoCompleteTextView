@@ -8,7 +8,7 @@
         compile 'com.boxstudio.lib:email-auto-complete-textview:0.3'
     }
 
-  <com.boxstudio.editviewlibrary.view.EmailAutoCompleteTextView
+    <com.boxstudio.editviewlibrary.view.EmailAutoCompleteTextView
         android:id="@+id/email_auto_complete_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
