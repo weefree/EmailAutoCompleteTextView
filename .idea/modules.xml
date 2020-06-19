@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EmailAutoCompleteTextView.iml" filepath="$PROJECT_DIR$/EmailAutoCompleteTextView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/email-auto-complete-textview/email-auto-complete-textview.iml" filepath="$PROJECT_DIR$/email-auto-complete-textview/email-auto-complete-textview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmailAutoCompleteTextView.iml" filepath="$PROJECT_DIR$/EmailAutoCompleteTextView.iml" group="EmailAutoCompleteTextView" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" group="EmailAutoCompleteTextView/demo" />
+      <module fileurl="file://$PROJECT_DIR$/email-auto-complete-textview/email-auto-complete-textview.iml" filepath="$PROJECT_DIR$/email-auto-complete-textview/email-auto-complete-textview.iml" group="EmailAutoCompleteTextView/email-auto-complete-textview" />
     </modules>
   </component>
 </project>
